@@ -1,0 +1,13 @@
+ugoro@DESKTOP-3I3RDTM MINGW64 ~/UP (master)
+$ git log
+commit d88f19395a223416c3e7b016ecddd76a61da4872 (HEAD -> master)
+Author: Uliana <u.gorochovich@gmail.com>
+Date:   Wed Feb 12 03:27:11 2020 +0300
+
+    add status.txt
+
+commit 0ce893079c3eaa3f361c3037e778d55df01809e9
+Author: Uliana <u.gorochovich@gmail.com>
+Date:   Wed Feb 12 03:22:26 2020 +0300
+
+    add .gitignore
