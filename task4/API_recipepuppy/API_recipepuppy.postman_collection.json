@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "f6df840a-fd7e-4a20-a6e3-9e6fd09e8379",
+		"name": "API_recipepuppy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.recipepuppy.com/api/?i=apple&q=pie&p=5",
+					"protocol": "http",
+					"host": [
+						"www",
+						"recipepuppy",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "apple"
+						},
+						{
+							"key": "q",
+							"value": "pie"
+						},
+						{
+							"key": "p",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://www.recipepuppy.com/api/?i=apple&q=pie&p=5",
+					"protocol": "http",
+					"host": [
+						"www",
+						"recipepuppy",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "apple"
+						},
+						{
+							"key": "q",
+							"value": "pie"
+						},
+						{
+							"key": "p",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.recipepuppy.com/api/?i=potato&q=crisps&p=3",
+					"protocol": "http",
+					"host": [
+						"www",
+						"recipepuppy",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "potato"
+						},
+						{
+							"key": "q",
+							"value": "crisps"
+						},
+						{
+							"key": "p",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.recipepuppy.com/api/?i=strawberries, pineapple,banana&q=dessert&p=1",
+					"protocol": "http",
+					"host": [
+						"www",
+						"recipepuppy",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "strawberries, pineapple,banana"
+						},
+						{
+							"key": "q",
+							"value": "dessert"
+						},
+						{
+							"key": "p",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
