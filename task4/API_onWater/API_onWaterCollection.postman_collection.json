@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "45eea2d5-8704-4b21-996b-d03bff6b3594",
+		"name": "API_onWaterCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.onwater.io/api/v1/results/44.545,-5.34",
+					"protocol": "https",
+					"host": [
+						"api",
+						"onwater",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"results",
+						"44.545,-5.34"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.onwater.io/api/v1/results/8.987,-63.35",
+					"protocol": "https",
+					"host": [
+						"api",
+						"onwater",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"results",
+						"8.987,-63.35"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.onwater.io/api/v1/results/23.345,-50.34",
+					"protocol": "https",
+					"host": [
+						"api",
+						"onwater",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"results",
+						"23.345,-50.34"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

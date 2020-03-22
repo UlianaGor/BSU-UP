@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+}
+.user-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.image {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.margin-left-image {
+    margin-left: 1.5%;
+}
+.margin-Top {
+    margin-top: 20px;
+}
+.button-image {
+    border: none;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    display: block;
+}
+.central {
+    width: 55%;
+    height: auto;
+    border-left: 3px solid lightblue;
+    border-right: 3px solid lightblue;
+    margin-left: 154px;
+}
+.block-home {
+    position: sticky;
+    top: 0px;
+    background: white;
+    width: 97%;
+    height: 25px;
+    border-bottom: 3px solid lightblue;
+    padding: 10px;
+}
+.block-publish {
+    width: 97%;
+    height: auto;
+    border-bottom: 3px solid lightblue;
+    padding: 10px;
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+.block-post {
+    width: 97%;
+    height: auto;
+    border-bottom: 3px solid lightblue;
+    padding: 10px;
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+.publish-text {
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.textarea-publish-text {
+    font-size: 18px;
+    border: none;
+    resize: none;
+    width: 100%;
+    height: 80px;
+    margin-left: 4%;
+    margin-top: -8%;
+}
+
+/*#username {*/
+/*    margin-left: 70px;*/
+/*    margin-top: -50px;*/
+/*}*/
+.user-name {
+    margin-top: -12%;
+    margin-left: 10%;
+}
+.date {
+    color: gray;
+    margin-left: 80%;
+    margin-top: -5.5%;
+}
+.text {
+    margin-left: 10%;
+    margin-top: -2%;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.right-column {
+    position: fixed;
+    right: 0px;
+    width: 32%;
+    height: 85%;
+}
+.left-column {
+    position: fixed;
+    /*width: 150px;*/
+    /*height: 500px;*/
+    width: 12%;
+    height: 85%;
+    float: left;
+}
+.search {
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.filter {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.filter-p {
+    border: 1px solid darkgray;
+    background: #45a9ed;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+.show {
+    border: 1px solid darkgray;
+    background: #45a9ed;
+    width: 50px;
+    height: 25px;
+    margin-left: 100px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+.date1 {
+    margin-top: 15px;
+    margin-left: -5%;
+}
+.date2 {
+    /*margin-left: 20%;*/
+    margin-top: -21%;
+    margin-right: -5%;
+    float: right;
+}
+.button-picture {
+    background-color: white;
+    border: none;
+    margin-left: 8%;
+    width: 25px;
+    height: 25px;
+}
+.add-picture {
+    width: 20px;
+    height: 20px;
+}
+.button-publish {
+    background: #45a9ed;
+    color: white;
+    width: 70px;
+    height: 20px;
+    margin-left: 35%;
+}
+.button-like {
+    background-color: white;
+    border: none;
+    margin-top: 1%;
+    margin-left: 9%;
+    width: 25px;
+    height: 25px;
+}
+
+.button-delete{
+    background-color: white;
+    border: none;
+    margin-top: 1%;
+    margin-left: 70%;
+    width: 25px;
+    height: 25px;
+}
+
+.button-edit{
+    background-color: white;
+    border: none;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 25px;
+    height: 25px;
+}
+
+.button-load-more{
+    margin-left: 35%;
+    width: 100px;
+    height: 30px;
+    background: #45a9ed;
+    color: white;
+}
+.footer {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+    color: gray;
+}
