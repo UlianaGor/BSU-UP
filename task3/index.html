@@ -4,49 +4,54 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <title>Enote</title>
-    <link rel="shortcut icon" href="/images/enote-ico.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/Raccoon-ico.png" type="image/png">
 </head>
 
 <body>
 
-<div class="left-column">
-        <img class="image" src="images/enote.png" alt="enote" width="90" height="90" >
-        <button class="button-image"><img class="image" src="images/button-home.png" alt="home" width="35" height="35"></button>
-        <button class="button-image"><img class="image" src="images/button-profile.png" alt="home" width="35" height="35">Uliana Gor</button>
-        <button class="button-image"><img class="image" src="images/button-add.png" alt="home" width="35" height="35"></button>
-        <button class="button-image"><img class="image" src="images/button-login.png" alt="home" width="70" height="35"></button>
-</div>
+<nav class="left-column">
+    <img class="image-enote" src="images/enote.png" alt="enote">
+    <ul>
+        <li> <button class="button-image"><img class="image-left-column" src="images/button-home.png" alt="home"></button></li>
+        <li><button class="button-image"><img class="image-left-column" src="images/button-profile.png" alt="home">Uliana Gor</button></li>
+        <li><button class="button-image"><img class="image-left-column" src="images/button-add.png" alt="home"></button></li>
+        <li><button class="button-image"><img class="image-left-column" src="images/button-login.png" alt="home" ></button></li>
+    </ul>
+</nav>
 
 <div class="right-column">
-    <div class="search">
+    <div>
         <form>
-            <input type="search" maxlength="25" size="30" placeholder="#tags">
+            <input class="search" type="search" maxlength="25" size="30" placeholder=" #tags">
         </form>
     </div>
 
     <div class="filter">
         <form>
-            <p class="filter-p">Filter</p>
-            <p align="center"><input maxlength="25" size="30" type="search" placeholder="Author"></p>
-            <div class="date1">
-                <p><input type="date"></p>
-            </div>
-            <div class="date2">
-                <p><input type="date"></p>
-            </div>
-            <p align="center"><input maxlength="25" size="30" type="search" placeholder="Tag"></p>
-            <button class="show">Show</button>
+            <fieldset>
+                <legend>Filter</legend>
+                <p><input class="author" maxlength="25" size="30" type="search" placeholder=" Author"></p>
+                   <div>
+                       <p><input class="date-from" type="date"></p>
+                   </div>
+                   <div>
+                       <p><input class="date-to" type="date"></p>
+                   </div>
+                <p><input class="tag" maxlength="25" size="30" type="search" placeholder=" Tag"></p>
+                <button class="button-show">Show</button>
+            </fieldset>
+
         </form>
     </div>
 </div>
 
-<div class="central">
-    <div class="block-home">Home</div>
+<main class="central">
+    <h2 class="block-home">Home</h2>
 
     <div class="block-publish">
         <form>
             <div>
-                <img class="user-photo" src="images/User photo.jpg" alt="user-photo" width="50" height="50">
+                <img class="user-photo margin-left-image" src="images/User photo.jpg" alt="user-photo">
             </div>
 
             <div class="publish-text">
@@ -56,14 +61,13 @@
             </div>
 
             <div>
-                <button class="button-picture"><img class="add-picture" src="images/picture-blue.png" alt="picture" align="center>" </button>
+                <button class="button-picture"><img class="add-picture" src="images/picture-blue.png" alt="picture" /> </button>
                 <button class="button-publish">Publish</button>
             </div>
         </form>
     </div>
 
-    <div class="block-post">
-        <form>
+    <article class="block-post">
             <img class="user-photo margin-left-image" src="images/SpaceX.jpg" alt="SpaceX">
             <div class="user-name"><h4>SpaceX</h4></div>
             <div class="date"><p>Feb 29, 2020 - 00:23</p></div>
@@ -76,13 +80,11 @@
                 asteroid between Mars and Jupiter to help humanity better understand the formation of
                 our solar system’s planets <a href="URL">https://go.nasa.gov/2VCFdap</a>
             </div>
-            <img class="image" src="images/SpaceX picture.jpg" alt="SpaceX" width="70%" height="70%">
+            <img class="image-post" src="images/SpaceX picture.jpg" alt="SpaceX">
             <div><button class="button-like"><img class="add-picture" src="images/like.png" alt="like"></button></div>
-        </form>
-    </div>
+    </article>
 
-    <div class="block-post">
-        <form>
+    <article class="block-post">
             <img class="user-photo margin-left-image" src="images/User photo.jpg" alt="User photo">
             <div class="user-name"><h4>Uliana Gor</h4></div>
             <div class="date"><p>Feb 29, 2020 - 00:15</p></div>
@@ -95,24 +97,20 @@
                 <button class="button-delete"><img class="add-picture" src="images/delete.png" alt="delete"></button>
                 <button class="button-edit"><img class="add-picture" src="images/edit.png" alt="edit"></button>
             </div>
-        </form>
-    </div>
+    </article>
 
-    <div class="block-post">
-        <form>
+    <article class="block-post">
             <img class="user-photo margin-left-image" src="images/Marques Brownlee.jpg" alt="Marques Brownlee">
             <div class="user-name"><h4>Marques Brownlee</h4></div>
             <div class="date"><p>Feb 28, 2020 - 17:00</p></div>
             <div class="text">
                 NEW VIDEO - Xiaomi Mi Mix Ultra Impressions: The Wraparound Display! <a href="URL">https://youtu.be/PTpoj4f25dk - RT!</a>
             </div>
-            <img class="image" src="images/Marques Brownlee Xiaomi.jpg" alt="Marques Brownlee Xiaomi" width="70%" height="70%">
+            <img class="image-post" src="images/Marques Brownlee Xiaomi.jpg" alt="Marques Brownlee Xiaomi">
             <div><button class="button-like"><img class="add-picture" src="images/like.png" alt="like"></button></div>
-        </form>
-    </div>
+    </article>
 
-    <div class="block-post">
-        <form>
+    <article class="block-post">
             <img class="user-photo margin-left-image" src="images/NASA.jpg" alt="NASA">
             <div class="user-name"><h4>NASA</h4></div>
             <div class="date"><p>Feb 28, 2020 - 04:00</p></div>
@@ -121,15 +119,13 @@
                 <a href="URL">@NASAJPL</a>
                 's twin MarCO spacecraft, which traveled all the way to Mars with
                 <a href="URL">@NASAInsight</a>
-                & relayed communications as the lander touched down. Aspects of their design will be used in CubeSats launching to the Moon with #Artemis I: <a href="URL">https://go.nasa.gov/2weKwSM</a>
+                & relayed communications as the lander touched down. Aspects of their design will be used in CubeSats launching to the Moon with <a href="URL">#Artemis</a> I: <a href="URL">https://go.nasa.gov/2weKwSM</a>
             </div>
-            <img class="image" src="images/NASA picture.jpg" alt="NASA" width="70%" height="70%">
+            <img class="image-post" src="images/NASA picture.jpg" alt="NASA">
             <div><button class="button-like"><img class="add-picture" src="images/like.png" alt="like"></button></div>
-        </form>
-    </div>
+    </article>
 
-    <div class="block-post">
-        <form>
+    <article class="block-post">
             <img class="user-photo margin-left-image" src="images/Tim Cook.jpg" alt="Tim Cook">
             <div class="user-name"><h4>Tim Cook</h4></div>
             <div class="date"><p>Feb 27, 2020 - 21:53</p></div>
@@ -139,26 +135,22 @@
                 visionary leaders in opening Ed Farm — a new education hub where students can connect,
                 learn and create!
             </div>
-            <img class="image" src="images/Tim Cook picture.jpg" alt="Tim Cook picture" width="70%" height="70%">
+            <img class="image-post" src="images/Tim Cook picture.jpg" alt="Tim Cook picture">
             <div><button class="button-like"><img class="add-picture" src="images/like.png" alt="like"></button></div>
-        </form>
-    </div>
+    </article>
 
-    <div class="block-post">
-        <form>
+    <article class="block-post">
             <img class="user-photo margin-left-image" src="images/Justin Bieber.jpg" alt="Justin Bieber">
             <div class="user-name"><h4>Justin Bieber</h4></div>
             <div class="date"><p>Feb 27, 2020 - 05:50</p></div>
             <div class="text">
                 <p></p>
-                Love hearing #Intentions on the radio . Thank you
+                Love hearing <a href="URL">#Intentions</a> on the radio . Thank you
             </div>
             <div><button class="button-like"><img class="add-picture" src="images/like.png" alt="like"></button></div>
-        </form>
-    </div>
+    </article>
 
-    <div class="block-post">
-        <form>
+    <article class="block-post">
             <img class="user-photo margin-left-image" src="images/Daniel Radcliffe NL.png" alt="Daniel Radcliffe NL">
             <div class="user-name"><h4>Daniel Radcliffe NL</h4></div>
             <div class="date"><p>Feb 26, 2020 - 20:08</p></div>
@@ -167,51 +159,44 @@
                 [news] Entertainment Weekly interview <a href="URL">http://bit.ly/2Tlh0CD</a>
             </div>
             <div><button class="button-like"><img class="add-picture" src="images/like.png" alt="like"></button></div>
-        </form>
-    </div>
+    </article>
 
-    <div class="block-post">
-        <form>
+    <article class="block-post">
             <img class="user-photo margin-left-image" src="images/Elon Musk.jpg" alt="Elon Musk">
             <div class="user-name"><h4>Elon Musk</h4></div>
             <div class="date"><p>Feb 25, 2020 - 12:08</p></div>
             <div class="text">
                 Woody
             </div>
-            <img class="image" src="images/ice-cream-elon-musk.jpg" alt="Elon Musk Ice-Cream" width="70%" height="70%">
+            <img class="image-post" src="images/ice-cream-elon-musk.jpg" alt="Elon Musk Ice-Cream">
             <div><button class="button-like"><img class="add-picture" src="images/like.png" alt="like"></button></div>
-        </form>
-    </div>
+    </article>
 
-    <div class="block-post">
-        <form>
+    <article class="block-post">
             <img class="user-photo margin-left-image" src="images/Kate Parkhimchik.jpg" alt="Kate Parkhimchik">
             <div class="user-name"><h4>Kate_Parkhimchik</h4></div>
             <div class="date"><p>Feb 22, 2020 - 11:57</p></div>
             <div class="text">
-                #dance
+                <a href="URL">#dance</a>
                 <p></p>
                 Waiting for everyone for today's training in Step Up!:)
             </div>
             <div><button class="button-like"><img class="add-picture" src="images/like.png" alt="like"></button></div>
-        </form>
-    </div>
+    </article>
 
-    <div class="block-post">
-        <form>
+    <article class="block-post">
             <img class="user-photo margin-left-image" src="images/The Weeknd.jpg" alt="The Weeknd">
             <div class="user-name"><h4>The Weeknd</h4></div>
             <div class="date"><p>Feb 22, 2020 - 09:32</p></div>
             <div class="text">
-                #theweeknd #new
+                <a href="URL">#theweeknd</a> <a href="URL">#new</a>
                 <p></p>
                 AFTER HOURS (Tour)
             </div>
-            <img class="image" src="images/afterhours.png" alt="The Weeknd Poster" width="auto" height="auto">
+            <img class="image-post" src="images/afterhours.png" alt="The Weeknd Poster">
             <div><button class="button-like"><img class="add-picture" src="images/like.png" alt="like"></button></div>
-        </form>
-    </div>
-</div>
+    </article>
+</main>
 <div class="load-more"><button class="button-load-more">Load more</button></div>
 
 <footer class="footer">
