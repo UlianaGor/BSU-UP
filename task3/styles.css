@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.user-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.image-left-column {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 5%;
+    width: 35px;
+    height: 35px;
+}
+.image-post {
+    width: 70%;
+    height: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.image-enote {
+    width: 90px;
+    height: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.margin-left-image {
+    margin-left: 1.5%;
+}
+.margin-Top {
+    margin-top: 20px;
+}
+.button-image {
+    border: none;
+    background-color: white;
+    margin: 20px auto;
+    display: block;
+}
+.central {
+    width: 55%;
+    height: auto;
+    border-left: 3px solid lightblue;
+    border-right: 3px solid lightblue;
+    margin-left: 154px;
+}
+.block-home {
+    position: sticky;
+    top: 0px;
+    background: white;
+    height: 25px;
+    border-bottom: 3px solid lightblue;
+    padding: 10px;
+}
+.block-publish {
+    height: auto;
+    border-bottom: 3px solid lightblue;
+    padding: 10px;
+    margin: -3px 0px 10px 0px;
+}
+.block-post {
+    height: auto;
+    border-bottom: 3px solid lightblue;
+    padding: 10px;
+    margin: 3px 0px 10px 0px;
+}
+.publish-text {
+    width: auto;
+    margin: 0% 5% 0% 7%;
+}
+.textarea-publish-text {
+    font-size: 18px;
+    border: none;
+    resize: none;
+    width: 100%;
+    height: 80px;
+    margin: -8% 0% 0% 4%;
+}
+
+/*#username {*/
+/*    margin-left: 70px;*/
+/*    margin-top: -50px;*/
+/*}*/
+.user-name {
+    margin: -8% 0% 0% 10%;
+}
+.date {
+    color: gray;
+    margin: -3% 0% 0% 79%;
+}
+.text {
+    margin: 1% 5px 10px 10%;
+}
+.right-column {
+    position: fixed;
+    right: 0px;
+    width: 32%;
+    height: 85%;
+}
+.left-column {
+    position: fixed;
+    width: 12%;
+    height: 85%;
+    float: left;
+}
+.search {
+    border: 1px solid darkgray;
+    border-radius: 7px;
+    margin: 100px 0px 0px 90px;
+}
+.filter {
+    margin: 5% 0% 0% 15%;
+}
+
+fieldset{
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    width: 290px;
+}
+legend {
+    background-color: #45a9ed;
+    color: #fff;
+    padding: 3px 50px;
+    margin-left: 25%;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    text-align: center;
+}
+.button-show {
+    border: 1px solid darkgray;
+    background: #45a9ed;
+    color: white;
+    margin: 5% 38%;
+    text-align: center;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
+.author {
+    margin: 5% 0% 0% 5%;
+    width: 90%;
+    border-radius: 5px;
+    border: 0.5px solid darkgray;
+}
+
+.date-from {
+    width: 42%;
+    margin: 10px 0px 0px 5%;
+    border: 0.5px solid darkgray;
+    border-radius: 5px;
+    color: darkgray;
+    text-align: center;
+}
+.date-to {
+    width: 42%;
+    margin: -21px 5% 0px 0px;
+    float: right;
+    border: 0.5px solid darkgray;
+    border-radius: 5px;
+    color: darkgray;
+    text-align: center;
+}
+.tag {
+    margin: 5% 0% 0% 5%;
+    width: 90%;
+    border-radius: 5px;
+    border: 0.5px solid darkgray;
+}
+.button-picture {
+    background-color: white;
+    border: none;
+    margin-left: 10%;
+    width: 25px;
+    height: 25px;
+}
+.add-picture {
+    width: 20px;
+    height: 20px;
+}
+.button-publish {
+    border: 1px solid darkgray;
+    background: #45a9ed;
+    color: white;
+    width: 70px;
+    height: 20px;
+    margin-left: 30%;
+    border-radius: 5px;
+}
+.button-like {
+    background-color: white;
+    border: none;
+    margin: 1% 0% 0% 9%;
+    width: 25px;
+    height: 25px;
+}
+
+.button-delete{
+    background-color: white;
+    border: none;
+    margin: 1% 0% 0% 70%;
+    width: 25px;
+    height: 25px;
+}
+
+.button-edit{
+    background-color: white;
+    border: none;
+    margin: 1% 0% 0% 1%;
+    width: 25px;
+    height: 25px;
+}
+
+.button-load-more{
+    border: 1px solid darkgray;
+    margin-left: 35%;
+    width: 100px;
+    height: 30px;
+    background: #45a9ed;
+    color: white;
+    border-radius: 7px;
+}
+.footer {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: 1% 0% 1% 0%;
+    text-align: center;
+    color: gray;
+}
